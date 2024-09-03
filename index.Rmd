@@ -1,0 +1,100 @@
+---
+author: ''
+output:
+  html_document:
+  css: style.css
+  
+---
+
+
+<p align = 'justify'>
+
+
+<font size='6'>Data analyses for:</font>
+
+<br>
+
+<font size='5'>Beyond Microsoft</font>
+
+<br>
+
+[Dylan Padilla](https://dylanpadilla.netlify.app/), School of Life Sciences, Arizona State University
+
+<br>
+
+![](imgs/CME.png)
+
+</p>
+
+
+```{r setup, include = FALSE}
+
+knitr::opts_chunk$set(dpi = 300,
+                      fig.width = 7,
+                      fig.height = 7,
+                      comment = '>')
+
+
+```
+
+
+<b>
+<font size='3'>Library and Session Info</font>
+</b>
+
+
+```{r}
+
+library(rmarkdown)
+library(knitr)
+
+sessionInfo()
+
+```
+
+<br>
+
+<b>
+<font size='3'>Beginning of the analyses</font>
+</b>
+
+```{r}
+
+data(iris)
+
+plot(iris, las = 1)
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
